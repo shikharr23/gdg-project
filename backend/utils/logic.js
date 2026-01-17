@@ -1,4 +1,4 @@
- const calculateAttendancePercentage = (classesConducted, classesAttended) => {
+const calculateAttendancePercentage = (classesConducted, classesAttended) => {
     if (classesConducted === 0) {
         return 100;
     }

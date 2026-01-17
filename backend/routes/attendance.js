@@ -25,7 +25,7 @@ attendanceRouter.get("/:subjectId", async (req, res) => {
       subjectId,
       attended: subject.classesAttended,
       total: subject.classesConducted,
-      attendancePct: Math.round(attendancePct * 100) / 100, // Round to 2 decimal places
+      attendancePct: Math.round(attendancePct * 100) / 100, 
       minRequired: subject.minAttendancePercent,
     });
   } catch (err) {

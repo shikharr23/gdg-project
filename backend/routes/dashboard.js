@@ -1,5 +1,6 @@
 import express from "express";
 import Subject from "../models/subject.js";
+
 import {
   calculateAttendancePercentage,
   calculateSafeBunks,
